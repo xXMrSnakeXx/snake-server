@@ -1,2 +1,2 @@
 export * from "./createError.js";
-export * from './ctrlWrapper.js'
+export * from "./ctrlWrapper.js";

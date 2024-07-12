@@ -9,8 +9,7 @@ export const addUser = async (req, res) => {
   if (error) {
     throw createError(400, (error.message = "missing required unique name"));
   }
-  if(status === 201){
-
-    res.status(201).json({name});
+  if (status === 201) {
+    res.status(201).json({ name });
   }
 };
